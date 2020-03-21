@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myplugin" >
+
+    <application>
+        <activity android:name="com.example.myplugin.PluginTestActivity" android:screenOrientation="landscape"/>
+        <activity android:name=".SecondActivity" android:configChanges="orientation|keyboard|keyboardHidden|screenSize"/>
+    </application>
+</manifest>
